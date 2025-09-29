@@ -1,3 +1,32 @@
 body {
   background: lightblue;
 }
+
+.title {
+	color: green;
+	font-family: Copperplate, Fantasy, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	color: red;
+	text-align: center;
+}
+
+h2 {
+	color: red;
+	text-align: center;
+}
+
+header {
+	background: lightgreen;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration:none;
+	background: lightgreen;
+}
