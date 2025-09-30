@@ -1,32 +1,73 @@
 body {
-  background: lightblue;
+  background: #F0FFF0;
 }
 
 .title {
-	color: green;
-	font-family: Copperplate, Fantasy, sans-serif;
+	color: #8FBC8F;
+	font-family: Georgia, serif;
 	text-align: center;
+	font-size: 50px;
+	max-width: 100%;
 }
 
-h1 {
-	color: red;
+.header {
+	color: #8FBC8F;
+	font-family: Georgia, serif;
 	text-align: center;
+	font-size: 25px;
+	max-width: 100%;
 }
 
-h2 {
-	color: red;
+.banner {
+	background: #2F4F4F;
+	padding:10px;
+	border-radius:5%;
+}
+
+.banner h2 {
+	color: #8FBC8F;
+	font-family: Georgia, serif;
 	text-align: center;
-}
-
-header {
-	background: lightgreen;
-}
-
-a {
-	text-decoration: none;
 }
 
 a:hover {
 	text-decoration:none;
-	background: lightgreen;
+	background: lightblue;
+	border-radius:10%;
+	box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.2);
+
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+	display:flex;
+	justify-content: center;
+}
+
+nav a {
+	padding:10px;
+	text-decoration:none;
+	font-family: Georgia, serif;
+	color:#2F4F4F;
+}
+
+nav {
+	padding:10px;
+	background: #E0FFFF;
+	border-radius:10%;
+}
+
+img {
+	display: block;
+	margin: auto;
+	border-radius:10%;
+	padding:5px;
+}
+	
+p {
+	color: #8FBC8F;
+	font-family: Georgia, serif;
+	text-align: center;
+	padding:10px;
 }
