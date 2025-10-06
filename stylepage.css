@@ -104,7 +104,7 @@ ul {
 
 .imgwrap {
 	margin: 0 auto;
-	width:75%;
+	max-width:75%;
 	padding:10px;
 }
 
@@ -134,7 +134,7 @@ img {
 	max-width: 30%;
 	max-height: 30%;
 	margin-left:35%;
-	margin-right:100%;
+	margin-right:100%
 	margin-bottom:10%;
 }
 
@@ -144,7 +144,7 @@ img {
 	max-width: 30%;
 	max-height: 30%;
 	margin-left:35%;
-	margin-right:100%;
+	margin-right:100%
 	margin-bottom:10%;
 }
 	
