@@ -1,324 +1,71 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
-
-body {
-  background: #F0FFF0;
-  margin:0;
-}
-
-.title {
-	text-align: center;
-	font-family: Georgia, serif;
-	font-size: 30px;
-	color: #8FBC8F;
-	background: #2F4F4F;
-}
-
-.titlewrap {
-	margin: 0 auto;
-	width:75%;
-	padding:10px;
-}
-
-.navbar {
-	padding:10px;
-	margin-bottom: 10px;
-	background: #E0FFFF;
-}
-
-nav a {
-	padding:10px;
-	text-decoration:none;
-	font-family: Georgia, serif;
-	color:#8FBC8F;
-}
-
-a:hover {
-	text-decoration:none;
-	background: lightblue;
-	border-radius:10%;
-	box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.2);
-
-}
-
-ul {
-	list-style: none;
-	display:flex;
-	justify-content: center;
-	margin-bottom: 10px;
-}
-
-.header {
-	color: #8FBC8F;
-	font-family: Georgia, serif;
-	text-align: center;
-	font-size: 25px;
-	max-width: 100%;
-}
-
-.typewriterwrap {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	padding:10px;
-}
-
-.cursor{
-	font-family: 'American Typewriter';
-    position: relative;
-	top: 50px;
-    width: 24em;
-    margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 15px;
-    text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%);    
-	color: #8FBC8F;
-}
-/* Animation */
-.typewriter-animation {
-  animation: 
-    typewriter 5s steps(50) 1s 1 normal both, 
-    blinkingCursor 500ms steps(50) infinite normal;
-}
-@keyframes typewriter {
-  from { width: 0; }
-  to { width: 100%; }
-}
-@keyframes blinkingCursor{
-  from { border-right-color: #8FBC8F; }
-  to { border-right-color: transparent; }
-}
-
-.aboutM {
-	display: block;
-	float: left;
-	width: 50%;
-}
-
-.aboutQ {
-	display:block;
-	float: right;
-	width: 50%;
-}
-
-.imgwrap {
-	margin: 0 auto;
-	width:75%;
-	padding:10px;
-}
-
-img {
-	display: block;
-	margin: 0 auto;
-	border-radius:10%;
-	padding:5px;
-}
-
-.homeimg {
-	float: left;
-	margin-left: 10%;
-	max-width: 100%;
-	max-height: 100%;
-}
-
-.homeimg h2 {
-	text-align: center;
-	margin-top: 50px;
-	color:#8FBC8F;
-}
-
-.mimg {
-	float: left;
-	margin-left: 10%;
-	max-width: 30%;
-	max-height: 30%;
-	margin-left:35%;
-	margin-right:100%
-	margin-bottom:10%;
-}
-
-.qimg {
-	float: left;
-	margin-left: 10%;
-	max-width: 30%;
-	max-height: 30%;
-	margin-left:35%;
-	margin-right:100%
-	margin-bottom:10%;
-}
+<!DOCTYPE html>
+<html lang= "eng">
+<head>
+  <meta charset="UTF-8">
+  <meta name="LIS Project 2 About Us" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="stylepage.css">
+</head>
+<body>
+	<section class="title">
+		<div class="titlewrap">
+			<h1>About Us<h1>
+		</div>
+	</section>
 	
-.aboutM p {
-	margin: 0 auto;
-	font-family: Georgia, serif;
-	text-align: center;
-	padding:10px;
-	width: 75%;
-	color:#8FBC8F;
-	margin-top:50%;
-}
+	<section class="navbar">
+		<nav>
+			<ul>
+				<li><a href= "index.html">Home</a></li>
+				<li><a href= "about.html">About Us</a></li>
+				<li><a href = "resources.html">Resources</a></li>
+				<li><a href = "techheros.html">Tech Heros</a></li>
+			</ul>
+		</nav>
+	</section>
+	
+	<section class= "aboutM">
+		<div class="cursor typewriter-animation">
+			<h1 class = "typewriterwrap">About Maggie</h1>
+		</div>
+	
+		<div class="imgwrap">
+			<img class = "mimg" src="thumbnail_IMG_7508.jpg"
+/>
+		<div>
+		
+		<p>Hi everyone! My name is Maggie and I am a senior studying electrical
+		engineering and computer science at UW-Madison. In my free time, I sing in
+		the choir at St. Paul's, do crafts such as drawing and crocheting, read, and 
+		try different hobbies. I took this class to learn more about website development
+		and because I was interested in the intersection of concepts I learned in sociology
+		with topics more related to my majors. My favorite 'tech' thing currently
+		is my biomedical instrumentation course because we apply many of the 
+		electrical engineering concepts I have learned in various courses to
+		medical technology and get to build medical devices.</p>
+	</section>
 
-.aboutQ p {
-	margin: 0 auto;
-	font-family: Georgia, serif;
-	text-align: center;
-	padding:10px;
-	width: 75%;
-	color:#8FBC8F;
-	margin-top:50%;
-}
-
-.card {
-  border-radius: 10px;
-  filter: drop-shadow(0 5px 10px 0 #E0FFFF);
-  width: 400px;
-  height: 180px;
-  background-color: #E0FFFF;
-  padding: 20px;
-  position: relative;
-  z-index: 0;
-  overflow: hidden;
-  transition: 0.6s ease-in;
-  color: #8FBC8F;
-  max-width:100%;
-}
-
-.card::before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  top: -15px;
-  right: -15px;
-  background: #2F4F4F;
-  height:220px;
-  width: 25px;
-  border-radius: 32px;
-  transform: scale(1);
-  transform-origin: 50% 50%;
-  transition: transform 0.25s ease-out;
-}
-
-.card:hover::before{
-    transition-delay:0.2s ;
-
-  transform: scale(40);
-}
-
-.card:hover{
-    color: #E0FFFF;
-	cursor:pointer; 
-
-}
-
-.card p{
-    padding: 10px 0;
-}
-
-.about {
-	float: right;
-	margin-right: 10%;
-	margin-bottom: 2%;
-}
-
-.resources {
-	float: right;
-	margin-right:25%;
-	margin-bottom: 2%;
-}
-
-.resources p {
-	font-size:15px;
-}
-
-.heros {
-	float: right;
-	margin-right: 10%;
-	margin-bottom: 2%
-}
-
-.heros p {
-	font-size:15px;
-}
-
-.card img {
-	width:225px;
-	height:175px;
-	float:right;
-}
-
-.cardtext {
-	float: left;
-	width:100px;
-	font-size: 20px;
-}
-
-svg {
-  width: 256px;
-  height: 256px;
-  float:left;
-  margin-left:15%;
-  margin-bottom:10px;
-}
-
-.footerwrap {
-	margin: 0 auto;
-	width:75%;
-	margin-top:20px;
-}
-
-.footer {
-  position: relative;
-  margin-top: -100px; /* Note the negative value */
-  height: 100px;
-  clear:both;
-  text-align: center;
-  font-family: Georgia, serif;
-  font-size: 10px;
-  color: #8FBC8F;
-  background: #2F4F4F;
-  margin-bottom:0;
-}
-
-/* SMOKE */
-#smoke-1 {
-  stroke-dasharray: 0, 10;
-  animation: smoke 6s ease infinite;
-}
-
-#smoke-2 {
-  stroke-dasharray: 0, 10;
-  animation: smoke 6s 0.5s ease infinite;
-}
-
-@keyframes smoke {
-  0% { stroke-dasharray: 0, 10; }
-  50% { stroke-dasharray: 10, 0; }
-  100% { stroke-dasharray: 10, 0; opacity: 0; }
-}
-
-/* WRITING */
-#line-1 {
-  opacity: 0;
-  animation: writing 0.5s linear forwards;
-}
-
-#line-2 {
-  opacity: 0;
-  animation: writing 0.5s 1s linear forwards;
-}
-
-#line-3 {
-  opacity: 0;
-  animation: writing 0.5s 1.5s linear forwards;
-}
-
-#line-4 {
-  opacity: 0;
-  animation: writing 0.5s 2s linear forwards;
-}
-
-@keyframes writing {
-  0% { width: 0px; opacity: 1;}
-  100% { width: 14px; opacity: 1;}
-}
-}
+		<section class= "aboutQ">
+		<div class="cursor typewriter-animation">
+			<h1 class = "typewriterwrap">About Qamryn</h1>
+		</div>
+	
+		<div class="imgwrap">
+			<img class = "qimg" src="95C6E516-E213-4A5E-8AFD-4E552352F5A1_4_5005_c.jpeg"
+/>
+		<div>
+		
+		<p>Hi y'all, my name is Qamryn! I am a senior studying Information Science with a 
+		certificate Leadership. I am on the Wisconsin Cheerleading team so that takes 
+		up the majority of my time outside of school. I'm also in Alpha Kappa Alpha Sorority,
+		Inc. and currently serve as the President of the National Pan-Hellenic Council on 
+		campus. I took this class because I am aware of the issue of the lack of 
+		representation or the misrepresentation of diverse human groups in computer 
+		sciences, but I wanted to learn more about how those issues are becoming more 
+		important today, how to work to overcome that, aside from the obvious answer of 
+		just increasing diversity in this field, and I want to confront my own assumptions 
+		as well. My favorite 'tech' thing right now is learning about Big Data and AI – it's 
+		ethicality, it's environmental impact, it's incorporation into our daily lives, 
+		non-tecnology industries, and how it is changing human thinking and behavior.</p>
+	</section>
+	
+</body>
