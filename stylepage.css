@@ -129,22 +129,18 @@ img {
 }
 
 .mimg {
-	float: left;
-	margin-left: 10%;
-	max-width: 30%;
-	max-height: 30%;
-	margin-left:35%;
-	margin-right:100%
+	display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  height: auto;
 
 }
 
 .qimg {
-	float: left;
-	margin-left: 10%;
-	max-width: 30%;
-	max-height: 30%;
-	margin-left:35%;
-	margin-right:100%
+	display: block;
+  margin: 0 auto;
+  max-width: 30%;
+  height: auto;
 }
 	
 .aboutM p {
