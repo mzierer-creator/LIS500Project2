@@ -128,6 +128,25 @@ img {
 	color:#8FBC8F;
 }
 
+.mimg {
+	float: left;
+	margin-left: 10%;
+	max-width: 30%;
+	max-height: 30%;
+	margin-left:35%;
+	margin-right:100%
+	margin-bottom:10%;
+}
+
+.qimg {
+	float: left;
+	margin-left: 10%;
+	max-width: 30%;
+	max-height: 30%;
+	margin-left:35%;
+	margin-right:100%
+	margin-bottom:10%;
+}
 	
 .aboutM p {
 	margin: 0 auto;
@@ -136,6 +155,17 @@ img {
 	padding:10px;
 	width: 75%;
 	color:#8FBC8F;
+	margin-top:50%;
+}
+
+.aboutQ p {
+	margin: 0 auto;
+	font-family: Georgia, serif;
+	text-align: center;
+	padding:10px;
+	width: 75%;
+	color:#8FBC8F;
+	margin-top:50%;
 }
 
 .card {
