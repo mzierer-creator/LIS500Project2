@@ -5,6 +5,7 @@ body {
   margin:0;
 }
 
+/*Title and background behind title style*/
 .title {
 	text-align: center;
 	font-family: Georgia, serif;
@@ -19,6 +20,7 @@ body {
 	padding:10px;
 }
 
+/*Style for each link and entire bar for navbar*/
 .navbar {
 	padding:10px;
 	margin-bottom: 10px;
@@ -32,6 +34,7 @@ nav a {
 	color:#8FBC8F;
 }
 
+/*Create colored box when hovering over a link*/
 a:hover {
 	text-decoration:none;
 	background: lightblue;
@@ -55,6 +58,7 @@ ul {
 	max-width: 100%;
 }
 
+/*Style for typewriter animation from https://codepen.io/frankeno/pen/QWmmxQb*/
 .typewriterwrap {
 	margin-top: 10px;
 	margin-bottom: 10px;
@@ -91,6 +95,7 @@ ul {
   to { border-right-color: transparent; }
 }
 
+/*Style for side-by-side info (tech hero and about pages)*/
 .aboutM {
 	display: block;
 	float: left;
@@ -103,6 +108,7 @@ ul {
 	width: 50%;
 }
 
+/*Default image styling*/
 .imgwrap {
 	margin: 0 auto;
 	max-width:75%;
@@ -116,6 +122,7 @@ img {
 	padding:5px;
 }
 
+/*styling for image on home page*/
 .homeimg {
 	float: left;
 	margin-left: 10%;
@@ -123,27 +130,34 @@ img {
 	max-height: 100%;
 }
 
+/*styling for heading on home page*/
 .homeimg h2 {
 	text-align: center;
 	margin-top: 50px;
 	color:#8FBC8F;
 }
 
+/*Styling for side-by-side images (tech heros and about pages)*/
 .mimg {
-	display: block;
-  margin: 0 auto;
-  max-width: 30%;
-  height: auto;
+	float: left;
+	margin-left: 10%;
+	max-width: 30%;
+	max-height: 30%;
+	margin-left:35%;
+	margin-right:100%
 
 }
 
 .qimg {
-	display: block;
-  margin: 0 auto;
-  max-width: 30%;
-  height: auto;
+	float: left;
+	margin-left: 10%;
+	max-width: 30%;
+	max-height: 30%;
+	margin-left:35%;
+	margin-right:100%
 }
 	
+/*Styling for side-by-side paragraphs (tech heros and about pages)*/
 .aboutM p {
 	margin: 0 auto;
 	font-family: Georgia, serif;
@@ -162,6 +176,7 @@ img {
 	color:#8FBC8F;
 }
 
+/*card animations and styling for effect from https://codepen.io/NikhilBobade/pen/oNZmRpa*/
 .card {
   border-radius: 10px;
   filter: drop-shadow(0 5px 10px 0 #E0FFFF);
@@ -208,6 +223,7 @@ img {
     padding: 10px 0;
 }
 
+/*styling for about, resources, and tech heros pages*/
 .about {
 	float: right;
 	margin-right: 10%;
@@ -234,18 +250,21 @@ img {
 	font-size:15px;
 }
 
+/*adding an image to the cards on the home screen*/
 .card img {
 	width:225px;
 	height:175px;
 	float:right;
 }
 
+/*resize and move the default text on the cards*/
 .cardtext {
 	float: left;
 	width:100px;
 	font-size: 20px;
 }
 
+/*svg styling for animation on home page from https://codepen.io/luisomarti/pen/VwaawWd*/
 svg {
   width: 256px;
   height: 256px;
@@ -254,6 +273,7 @@ svg {
   margin-bottom:10px;
 }
 
+/*styling for solid color footer*/
 .footerwrap {
 	margin: 0 auto;
 	width:75%;
@@ -273,6 +293,7 @@ svg {
   margin-bottom:0;
 }
 
+/*styling for animation from https://codepen.io/luisomarti/pen/VwaawWd*/
 /* SMOKE */
 #smoke-1 {
   stroke-dasharray: 0, 10;
@@ -315,4 +336,78 @@ svg {
   0% { width: 0px; opacity: 1;}
   100% { width: 14px; opacity: 1;}
 }
+
+/*styling for resources page*/
+.interwrap {
+	width:60%;
+	margin: 0 auto;
+	color:#8FBC8F;
+	display:block;
 }
+
+.interwrap img {
+	float:left;
+	display:block;
+	margin: 0 auto;
+	margin-top:35px;
+}
+
+.interwrap iframe {
+	width:60%;
+	margin: 0 auto;
+	color:#8FBC8F;
+	display:block;
+	margin-top:35px;
+}
+
+ .inter {
+	 color: #8FBC8F;
+	font-family: Georgia, serif;
+	text-align: center;
+	font-size: 20px;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+ .inter a {
+	 color:#8FBC8F;
+	 margin-top:30px;
+	 font-size:20px;
+	 padding:10px;
+}
+
+ .bias {
+	 color: #8FBC8F;
+	font-family: Georgia, serif;
+	text-align: center;
+	font-size: 20px;
+	max-width: 100%;
+	margin: 0 auto;
+ }
+ 
+.biaswrap {
+	width:60%;
+	margin: 0 auto;
+	color:#8FBC8F;
+	display:block;
+	margin-bottom: 40px;
+}
+
+ .bias a {
+	 color:#8FBC8F;
+	 margin-top:30px;
+	 font-size:20px;
+	 padding:10px;
+	 	margin-bottom:10px;
+}
+
+.biaswrap iframe {
+	width:60%;
+	margin: 0 auto;
+	color:#8FBC8F;
+	display:block;
+	margin-top:35px;
+}
+
+
+
